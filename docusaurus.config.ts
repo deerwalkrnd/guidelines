@@ -6,8 +6,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Deerwalk R & D Guidelines",
-  tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  tagline: "Guidelines are cool",
+  favicon: "img/logo.svg",
 
   // Set the production url of your site here
   url: "https://guidelines.deerwalk.edu.np",
@@ -33,7 +33,7 @@ const config: Config = {
 
   presets: [
     [
-      "@docusaurus/preset-classic",
+      "classic",
 
       {
         docs: {
@@ -67,7 +67,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    // image: "img/docusaurus-social-card.jpg",
     navbar: {
       title: "Deerwalk R & D Guidelines",
       logo: {
