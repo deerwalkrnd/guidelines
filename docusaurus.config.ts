@@ -35,12 +35,6 @@ const config: Config = {
     [
       "classic",
       {
-        gtag: {
-          trackingID: "G-YTTZNLZKXZ",
-          anonymizeIP: false,
-        },
-      },
-      {
         docs: {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
@@ -49,6 +43,10 @@ const config: Config = {
           routeBasePath: "/",
         },
         blog: false,
+        gtag: {
+          trackingID: "G-YTTZNLZKXZ",
+          anonymizeIP: false,
+        },
         // blog: {
         //   showReadingTime: true,
         //   feedOptions: {
