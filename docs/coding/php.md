@@ -1,8 +1,8 @@
 ---
-id: php_guidelines
-title: PHP Guidelines
+id: php
+title: PHP
 description: A guidelines for php.
-slug: /coding/php-guidelines
+slug: /coding/php
 sidebar-position: 3
 last_update:
   date: 2024-12-30
